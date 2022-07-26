@@ -1,0 +1,8 @@
+package Exception_handling;
+
+public class user_def_exception extends Exception{
+      user_def_exception(String msg)
+      {
+        super(msg);//use super keyword for use the parents class variable.....	
+      }
+}
